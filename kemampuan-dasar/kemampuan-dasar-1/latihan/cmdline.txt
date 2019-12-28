@@ -1,0 +1,240 @@
+Yang sudah dicoba 
+1. sudo apt update
+dengan hasil Get:1 http://id.archive.ubuntu.com/ubuntu bionic InRelease [242 kB]            
+Get:2 http://security.ubuntu.com/ubuntu bionic-security InRelease [88,7 kB]    
+Get:3 http://id.archive.ubuntu.com/ubuntu bionic-updates InRelease [88,7 kB]
+Get:4 http://security.ubuntu.com/ubuntu bionic-security/main amd64 Packages [593 kB]
+Get:5 http://id.archive.ubuntu.com/ubuntu bionic-backports InRelease [74,6 kB] 
+Get:6 http://id.archive.ubuntu.com/ubuntu bionic/main i386 Packages [1.007 kB]
+Get:7 http://security.ubuntu.com/ubuntu bionic-security/main i386 Packages [414 kB]
+Get:8 http://security.ubuntu.com/ubuntu bionic-security/main Translation-en [194 kB]
+Get:9 http://id.archive.ubuntu.com/ubuntu bionic/main amd64 Packages [1.019 kB]
+Get:10 http://security.ubuntu.com/ubuntu bionic-security/main amd64 DEP-11 Metadata [38,5 kB]
+Get:11 http://security.ubuntu.com/ubuntu bionic-security/main DEP-11 48x48 Icons [17,6 kB]
+Get:12 http://security.ubuntu.com/ubuntu bionic-security/main DEP-11 64x64 Icons [41,5 kB]
+Get:13 http://security.ubuntu.com/ubuntu bionic-security/restricted i386 Packages [4.280 B]
+Get:14 http://security.ubuntu.com/ubuntu bionic-security/restricted amd64 Packages [15,1 kB]
+Get:15 http://security.ubuntu.com/ubuntu bionic-security/restricted Translation-en [4.684 B]
+Get:16 http://security.ubuntu.com/ubuntu bionic-security/universe i386 Packages [602 kB]
+Get:17 http://security.ubuntu.com/ubuntu bionic-security/universe amd64 Packages [627 kB]
+Get:18 http://security.ubuntu.com/ubuntu bionic-security/universe Translation-en [210 kB]
+Get:19 http://security.ubuntu.com/ubuntu bionic-security/universe amd64 DEP-11 Metadata [42,1 kB]
+Get:20 http://id.archive.ubuntu.com/ubuntu bionic/main Translation-en [516 kB] 
+Get:21 http://id.archive.ubuntu.com/ubuntu bionic/main amd64 DEP-11 Metadata [477 kB]
+Get:22 http://security.ubuntu.com/ubuntu bionic-security/universe DEP-11 48x48 Icons [16,4 kB]
+Get:23 http://security.ubuntu.com/ubuntu bionic-security/universe DEP-11 64x64 Icons [111 kB]
+Get:24 http://id.archive.ubuntu.com/ubuntu bionic/main DEP-11 48x48 Icons [118 kB]
+Get:25 http://security.ubuntu.com/ubuntu bionic-security/multiverse i386 Packages [4.288 B]
+Get:26 http://security.ubuntu.com/ubuntu bionic-security/multiverse amd64 Packages [6.120 B]
+Get:27 http://id.archive.ubuntu.com/ubuntu bionic/main DEP-11 64x64 Icons [245 kB]
+Get:28 http://security.ubuntu.com/ubuntu bionic-security/multiverse Translation-en [2.600 B]
+Get:29 http://security.ubuntu.com/ubuntu bionic-security/multiverse amd64 DEP-11 Metadata [2.464 B]
+Get:30 http://security.ubuntu.com/ubuntu bionic-security/multiverse DEP-11 48x48 Icons [29 B]
+Get:31 http://id.archive.ubuntu.com/ubuntu bionic/restricted amd64 Packages [9.184 B]
+Get:32 http://id.archive.ubuntu.com/ubuntu bionic/restricted i386 Packages [9.156 B]
+Get:33 http://id.archive.ubuntu.com/ubuntu bionic/restricted Translation-en [3.584 B]
+Get:34 http://id.archive.ubuntu.com/ubuntu bionic/universe amd64 Packages [8.570 kB]
+Get:35 http://security.ubuntu.com/ubuntu bionic-security/multiverse DEP-11 64x64 Icons [2.638 B]
+Get:36 http://id.archive.ubuntu.com/ubuntu bionic/universe i386 Packages [8.531 kB]
+Get:37 http://id.archive.ubuntu.com/ubuntu bionic/universe Translation-en [4.941 kB]
+Get:38 http://id.archive.ubuntu.com/ubuntu bionic/universe amd64 DEP-11 Metadata [3.287 kB]
+Get:39 http://id.archive.ubuntu.com/ubuntu bionic/universe DEP-11 48x48 Icons [2.151 kB]
+Get:40 http://id.archive.ubuntu.com/ubuntu bionic/universe DEP-11 64x64 Icons [8.420 kB]
+Get:41 http://id.archive.ubuntu.com/ubuntu bionic/multiverse amd64 Packages [151 kB]
+Get:42 http://id.archive.ubuntu.com/ubuntu bionic/multiverse i386 Packages [144 kB]
+Get:43 http://id.archive.ubuntu.com/ubuntu bionic/multiverse Translation-en [108 kB]
+Get:44 http://id.archive.ubuntu.com/ubuntu bionic/multiverse amd64 DEP-11 Metadata [49,7 kB]
+Get:45 http://id.archive.ubuntu.com/ubuntu bionic/multiverse DEP-11 48x48 Icons [8.931 B]
+Get:46 http://id.archive.ubuntu.com/ubuntu bionic/multiverse DEP-11 64x64 Icons [225 kB]
+Get:47 http://id.archive.ubuntu.com/ubuntu bionic-updates/main amd64 Packages [817 kB]
+Get:48 http://id.archive.ubuntu.com/ubuntu bionic-updates/main i386 Packages [625 kB]
+Get:49 http://id.archive.ubuntu.com/ubuntu bionic-updates/main Translation-en [288 kB]
+Get:50 http://id.archive.ubuntu.com/ubuntu bionic-updates/main amd64 DEP-11 Metadata [295 kB]
+Get:51 http://id.archive.ubuntu.com/ubuntu bionic-updates/main DEP-11 48x48 Icons [73,8 kB]
+Get:52 http://id.archive.ubuntu.com/ubuntu bionic-updates/main DEP-11 64x64 Icons [143 kB]
+Get:53 http://id.archive.ubuntu.com/ubuntu bionic-updates/restricted i386 Packages [9.584 B]
+Get:54 http://id.archive.ubuntu.com/ubuntu bionic-updates/restricted amd64 Packages [24,1 kB]
+Get:55 http://id.archive.ubuntu.com/ubuntu bionic-updates/restricted Translation-en [6.620 B]
+Get:56 http://id.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 Packages [1.033 kB]
+Get:57 http://id.archive.ubuntu.com/ubuntu bionic-updates/universe i386 Packages [997 kB]
+Get:58 http://id.archive.ubuntu.com/ubuntu bionic-updates/universe Translation-en [319 kB]
+Get:59 http://id.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 DEP-11 Metadata [264 kB]
+Get:60 http://id.archive.ubuntu.com/ubuntu bionic-updates/universe DEP-11 48x48 Icons [201 kB]
+Get:61 http://id.archive.ubuntu.com/ubuntu bionic-updates/universe DEP-11 64x64 Icons [453 kB]
+Get:62 http://id.archive.ubuntu.com/ubuntu bionic-updates/multiverse amd64 Packages [9.284 B]
+Get:63 http://id.archive.ubuntu.com/ubuntu bionic-updates/multiverse i386 Packages [7.484 B]
+Get:64 http://id.archive.ubuntu.com/ubuntu bionic-updates/multiverse Translation-en [4.508 B]
+Get:65 http://id.archive.ubuntu.com/ubuntu bionic-updates/multiverse amd64 DEP-11 Metadata [2.464 B]
+Get:66 http://id.archive.ubuntu.com/ubuntu bionic-updates/multiverse DEP-11 48x48 Icons [29 B]
+Get:67 http://id.archive.ubuntu.com/ubuntu bionic-updates/multiverse DEP-11 64x64 Icons [2.638 B]
+Get:68 http://id.archive.ubuntu.com/ubuntu bionic-backports/main i386 Packages [2.516 B]
+Get:69 http://id.archive.ubuntu.com/ubuntu bionic-backports/main amd64 Packages [2.512 B]
+Get:70 http://id.archive.ubuntu.com/ubuntu bionic-backports/main Translation-en [1.644 B]
+Get:71 http://id.archive.ubuntu.com/ubuntu bionic-backports/universe amd64 Packages [4.028 B]
+Get:72 http://id.archive.ubuntu.com/ubuntu bionic-backports/universe i386 Packages [4.024 B]
+Get:73 http://id.archive.ubuntu.com/ubuntu bionic-backports/universe Translation-en [1.856 B]
+Get:74 http://id.archive.ubuntu.com/ubuntu bionic-backports/universe amd64 DEP-11 Metadata [7.976 B]
+Get:75 http://id.archive.ubuntu.com/ubuntu bionic-backports/universe DEP-11 48x48 Icons [29 B]
+Get:76 http://id.archive.ubuntu.com/ubuntu bionic-backports/universe DEP-11 64x64 Icons [29 B]
+Fetched 49,0 MB in 20s (2.514 kB/s)                                            
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+
+247 packages can be upgraded. Run 'apt list --upgradable' to see them.
+
+2. pika@pika-PC:~$ ls -R
+menghasilkan
+.:
+dead.letter  Documents  examples.desktop  Pictures        Public     Videos
+Desktop      Downloads  Music             praxis-academy  Templates
+
+./Desktop:
+
+./Documents:
+
+./Downloads:
+
+./Music:
+
+./Pictures:
+
+./praxis-academy:
+kemampuan-dasar-1
+
+./praxis-academy/kemampuan-dasar-1:
+latihan
+
+./praxis-academy/kemampuan-dasar-1/latihan:
+cmdline.txt  env.txt  Grub.txt  kernel-linux.txt
+
+./Public:
+
+./Templates:
+
+./Videos:
+
+3. pika@pika-PC:~$ ls -al
+menghasilkan
+total 104
+drwxr-xr-x 17 pika pika 4096 Des 27 10:44 .
+drwxr-xr-x  3 root root 4096 Des 27 07:56 ..
+-rw-------  1 pika pika  425 Des 27 10:38 .bash_history
+-rw-r--r--  1 pika pika  220 Des 27 07:56 .bash_logout
+-rw-r--r--  1 pika pika 3771 Des 27 07:56 .bashrc
+drwx------ 15 pika pika 4096 Des 27 01:36 .cache
+drwx------ 13 pika pika 4096 Des 27 09:12 .config
+-rw-------  1 pika pika  219 Des 27 10:44 dead.letter
+drwxr-xr-x  2 pika pika 4096 Des 27 08:12 Desktop
+drwxr-xr-x  2 pika pika 4096 Des 27 08:12 Documents
+drwxr-xr-x  2 pika pika 4096 Des 27 08:12 Downloads
+-rw-r--r--  1 pika pika 8980 Des 27 07:56 examples.desktop
+drwx------  3 pika pika 4096 Des 27 01:28 .gnupg
+-rw-------  1 pika pika  966 Des 27 08:56 .ICEauthority
+drwx------  3 pika pika 4096 Des 27 08:12 .local
+drwx------  5 pika pika 4096 Des 27 08:15 .mozilla
+drwxr-xr-x  2 pika pika 4096 Des 27 08:12 Music
+drwxr-xr-x  2 pika pika 4096 Des 27 08:12 Pictures
+drwxr-xr-x  3 pika pika 4096 Des 27 09:07 praxis-academy
+-rw-r--r--  1 pika pika  807 Des 27 07:56 .profile
+drwxr-xr-x  2 pika pika 4096 Des 27 08:12 Public
+drwx------  2 pika pika 4096 Des 27 01:28 .ssh
+-rw-r--r--  1 pika pika    0 Des 27 01:33 .sudo_as_admin_successful
+drwxr-xr-x  2 pika pika 4096 Des 27 08:12 Templates
+drwxr-xr-x  2 pika pika 4096 Des 27 08:12 Videos
+
+4. pika@pika-PC:~$ ls -a
+menghasilkan 
+.              dead.letter       .local          .ssh
+..             Desktop           .mozilla        .sudo_as_admin_successful
+.bash_history  Documents         Music           Templates
+.bash_logout   Downloads         Pictures        Videos
+.bashrc        examples.desktop  praxis-academy
+.cache         .gnupg            .profile
+.config        .ICEauthority     Public
+
+5. (membuat file dengan nama coba1) pika@pika-PC:~$ cat > coba1
+ini adalah file yang dibuat
+
+pika@pika-PC:~$ cat > coba2
+ini adalah file yang dibuat kedua
+
+6. (menampilkan isi) pika@pika-PC:~$ cat coba1
+ini adalah file yang dibuat
+
+pika@pika-PC:~$ cat coba2
+ini adalah file yang dibuat kedua
+
+7. (manggabungkan) pika@pika-PC:~$ cat coba1 coba2 > gabungan
+( menampilkan ) pika@pika-PC:~$ cat coba1 coba2
+ini adalah file yang dibuatini adalah file yang dibuat kedua
+
+8. (menghapus file) pika@pika-PC:~$ rm coba1
+pika@pika-PC:~$ ls
+coba2        Documents         gabungan  praxis-academy  Videos
+dead.letter  Downloads         Music     Public
+Desktop      examples.desktop  Pictures  Templates
+pika@pika-PC:~$ 
+
+9. (membuat diretory baru) pika@pika-PC:~$ mkdir direkbaru
+pika@pika-PC:~$ ls
+coba2        direkbaru  examples.desktop  Pictures        Templates
+dead.letter  Documents  gabungan          praxis-academy  Videos
+Desktop      Downloads  Music             Public
+
+10. (mengganti nama direk) pika@pika-PC:~$ mv direkbaru gantinama
+pika@pika-PC:~$ ls
+coba2        Documents         gabungan   Pictures        Templates
+dead.letter  Downloads         gantinama  praxis-academy  Videos
+Desktop      examples.desktop  Music      Public
+
+11. (Menampilkan perintah yang telah digunakan) 
+pika@pika-PC:~$ history
+    1  free
+    2  free -m
+    3  sudo apt-get install gparted
+    4  lscpu
+    5  display
+    6  window manager
+    7  wm
+    8  uname -r
+    9  sudo apt-get install packagename
+   10  mail -s "News Today" adityaadit677@gmail.com Hi,
+   11  sudo apt-get install mailutils
+   12  mail -s "News Today" adityaadit677@gmail.com Hi,
+   13  sudo apt install mailutils
+   14  https://docs.kali.org/general-use/kali-linux-sources-list-repositories
+   15  nano /etc/apt/source.list
+   16  leafpad /etc/apt/sources.list
+   17  nano /etc/apt/source.list
+   18  sudo cp /etc/apt/source.list /etc/apt/source.list.ori
+   19  sudo nano /etc/apt/source.list
+   20  sudo apt update
+   21  sudo apt-get install mailutils
+   22  mail -s "News Today" adityaadit677@gmail.com 
+   23  ls -R
+   24  ls -al
+   25  ls -a
+   26  cat coba1
+   27  sudo apt-get install cat
+   28  sudo apt-get install mailutils
+   29  cat coba1
+   30  cat > coba1
+   31  cat coba1
+   32  cat > coba2
+   33  cat coba2
+   34  cat coba1 coba 2 > gabungan
+   35  cat coba1 coba2 > gabungan
+   36  cat coba1 coba2
+   37  ls
+   38  rm coba1,ls
+   39  rm coba1
+   40  ls
+   41  mkdir direkbaru
+   42  ls
+   43  mkdir direkbaru gantinama
+   44  mv direkbaru gantinama
+   45  ls
+   46  history
+
+

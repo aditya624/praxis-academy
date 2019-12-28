@@ -1,0 +1,4 @@
+Versi kernel yang digunakan adalah 5.0.0-23-generic
+Kernel tersimpan pada direktori /boot. 
+Didalam /boot menyimpan segala hal yang diperlukan sebuah OS Linux/Unix untuk Booting up.
+

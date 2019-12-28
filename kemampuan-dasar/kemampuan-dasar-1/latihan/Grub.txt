@@ -1,0 +1,20 @@
+GRUB yang digunakan adalah versi 2.02
+GRUB adalah salah satu program boot-loader yang mulai populer akhir-akhir ini. Sebagaimana LILO, GRUB dipasang pada master boot record hardisk atau pada sektor pertama dari partisi hardisk. GRUB mengizikan kita untuk menempatkan intruksi spesifik yang berfungsi untuk memanggil menu GRUB atau pada lingkungan perintah-perintah yang berguna untuk melakukan konfigurasi boot-loader. Dengan demikian, kita bisa memilih sistem operasi mana yang akan kita panggil, ataupun memasukan parameter-parameter khusus pada kernel saat kita ingin boot ke sistem operasi LINUX.
+
+Berikut parameter yang terdapat di GRUB beserta penjelasannya :
+ Ketika PC kita melakukan booting, BIOS akan melakukan pengecekan terhadap komputer, seperti jumlah RAM, waktu dan tanggal, disk yang terpasang, dan membaca media yang dianggap sebagai boot-media sesuai konfigurasi pada BIOS.
+
+Proses pemanggilan GRUB dan sistem operasi meliputi beberapa tahapan:
+
+1. Memanggil Primary Boot-Loader
+Primary boot-loader berisi program dengan ukuran lebih kecil dari 512 bytes karena diletakan pada MBR yang hanya berukuran sebesar 512 bytes, program ini kemudian memanggil secondary boot-loader.
+
+2. Memanggil Secondary Boot-Loader
+Seondary boot-loader kemudian membawa kita ke menu pilihan sistem operasi apa yang akan kita jalankan, GRUB menyediakan dua menu pilihan utama, yaitu pilihan menu sistem operasi dan mode boot-loader command.
+
+3. Memanggil Sistem Operasi Pada Posisi Partisi Tertentu
+Dalam memanggil sistem operasi, GRUB mendapat intruksi tertentu untuk memanggil sistem operasi tersebut. Intruksi ini bisa kita definisikan melalui konfigurasi GRUB, atau kita ketikan secara manual pada mode boot-loader command.
+
+Sebagai contoh, jika Anda menginstall DOS/Windows bersama-sama dengan Linux, DOS/Windows secara normal akan menggantikan MBR dengan kode-kode terntentu yang berguna untuk memanggil IO.sys, MSDOS.sys, dan seterusnya. Untuk proses ini, GRUB harus melempar otoritasi booting ke sektor pertama dari partisi tempat DOS/Windows tersebut diinstall. 
+
+REFERENSI: Imam Mustaqim, unix.stackexchange.com
