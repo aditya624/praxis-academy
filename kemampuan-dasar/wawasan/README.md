@@ -1,4 +1,4 @@
-1. Teknologi Informasi 
+#Teknologi Informasi 
 Teknologi informasi (TI) adalah penggunaan komputer untuk menyimpan, mengambil, mengirim, dan memanipulasi data atau informasi.
 
 Sejarah teknologi komputer
@@ -13,10 +13,11 @@ Komputer elektronik awal seperti Colossus memanfaatkan pita berlubanguntuk penyi
 Databases
 Database Management Systems (DMS) muncul pada 1960-an untuk mengatasi masalah penyimpanan dan pengambilan data dalam jumlah besar secara akurat dan cepat. Sistem awal semacam itu adalah Sistem Manajemen Informasi (IMS) IBM.
 
-2. Perbedaan ilmu komputer dengan informatika
+#Perbedaan ilmu komputer dengan informatika
 Ilmu komputer adalah studi tentang teori, eksperimen, dan teknik yang membentuk dasar untuk desain dan penggunaan komputer. Ini adalah pendekatan ilmiah dan praktis untuk komputasi dan penerapannya serta studi sistematis tentang kelayakan, struktur, ekspresi, dan mekanisasi dari prosedur metodis (atau algoritma) yang mendasari akuisisi, representasi, pemrosesan, penyimpanan, komunikasi, dan akses untuk informasi. Definisi alternatif, lebih ringkas dari ilmu komputer adalah studi tentang mengotomatisasi proses algoritme yang berskala. Seorang ilmuwan komputer mengkhususkan diri dalam teori komputasi dan desain sistem komputasi. Sedangkan, informatika adalah cabang dari rekayasa informasi. Ini melibatkan praktik pengolahan informasi dan rekayasa sistem informasi, dan sebagai bidang akademik itu adalah bentuk ilmu informasi yang diterapkan. Bidang ini mempertimbangkan interaksi antara manusia dan informasi di samping pembangunan antarmuka, organisasi, teknologi dan sistem. Dengan demikian, bidang informatika sangat luas dan mencakup banyak subspesialisasi, termasuk disiplin ilmu komputer, sistem informasi, teknologi informasi, dan statistik. Sejak munculnya komputer, individu dan organisasi semakin memproses informasi secara digital. Ini telah mengarah pada studi informatika dengan aspek komputasi, matematika, biologis, kognitif dan sosial, termasuk studi dampak sosial dari teknologi informasi.
 
-3. Software Developer adalah proses memahami, menentukan, merancang, memprogram, mendokumentasikan, menguji, dan memperbaiki bug yang terlibat dalam membuat dan memelihara aplikasi, kerangka kerja, atau komponen perangkat lunak lainnya. Perangkat lunak dapat dikembangkan untuk berbagai keperluan, tiga yang paling umum adalah untuk memenuhi kebutuhan spesifik dari klien / bisnis tertentu (kasus dengan perangkat lunak khusus), untuk memenuhi kebutuhan yang dirasakan dari sejumlah pengguna potensial (kasus dengan komersial dan perangkat lunak open source), atau untuk penggunaan pribadi (mis. seorang ilmuwan dapat menulis perangkat lunak untuk mengotomatiskan tugas biasa). Pengembangan perangkat lunak tertanam, yaitu pengembangan perangkat lunak tertanam, seperti yang digunakan untuk mengendalikan produk konsumen, membutuhkan proses pengembangan untuk diintegrasikan dengan pengembangan produk fisik yang dikendalikan. Perangkat lunak sistem mendasari aplikasi dan proses pemrograman itu sendiri, dan sering dikembangkan secara terpisah.
+#Software Developer 
+Software Developer adalah proses memahami, menentukan, merancang, memprogram, mendokumentasikan, menguji, dan memperbaiki bug yang terlibat dalam membuat dan memelihara aplikasi, kerangka kerja, atau komponen perangkat lunak lainnya. Perangkat lunak dapat dikembangkan untuk berbagai keperluan, tiga yang paling umum adalah untuk memenuhi kebutuhan spesifik dari klien / bisnis tertentu (kasus dengan perangkat lunak khusus), untuk memenuhi kebutuhan yang dirasakan dari sejumlah pengguna potensial (kasus dengan komersial dan perangkat lunak open source), atau untuk penggunaan pribadi (mis. seorang ilmuwan dapat menulis perangkat lunak untuk mengotomatiskan tugas biasa). Pengembangan perangkat lunak tertanam, yaitu pengembangan perangkat lunak tertanam, seperti yang digunakan untuk mengendalikan produk konsumen, membutuhkan proses pengembangan untuk diintegrasikan dengan pengembangan produk fisik yang dikendalikan. Perangkat lunak sistem mendasari aplikasi dan proses pemrograman itu sendiri, dan sering dikembangkan secara terpisah.
 
 Software development activities antara lain:
 a. mengidentifikasi apa yang dibutuhkan
@@ -25,7 +26,8 @@ c. mendesain
 d. implementasi, testing dan dokumentasi 
 e. Penempatan dan pemeliharaan
 
-4. Pengembangan perangkat lunak tangkas terdiri dari berbagai pendekatan untuk pengembangan perangkat lunak di mana persyaratan dan solusi berkembang melalui upaya kolaboratif dari tim yang mengatur sendiri dan lintas fungsi dan pelanggan mereka (pengguna) / pengguna akhir.
+#Perangkat lunak Agil
+ Pengembangan perangkat lunak tangkas terdiri dari berbagai pendekatan untuk pengembangan perangkat lunak di mana persyaratan dan solusi berkembang melalui upaya kolaboratif dari tim yang mengatur sendiri dan lintas fungsi dan pelanggan mereka (pengguna) / pengguna akhir.
 
 Nilai pengembangan perangkat lunak yang baik.
 Berdasarkan pengalaman dalam mengembangkan perangkat lunak yang terpenting adalah:
@@ -61,7 +63,7 @@ Teknik Agile X juga bisa disebut manajemen proyek ekstrem. Ini adalah varian dar
 Aplikasi di luar pengembangan perangkat lunak
 Menurut Jean-Loup Richet (Research Fellow di ESSEC Institute for Strategic Innovation & Services) "pendekatan ini dapat dimanfaatkan secara efektif untuk produk-produk non-perangkat lunak dan untuk manajemen proyek secara umum, terutama di bidang inovasi dan ketidakpastian." Hasil akhirnya adalah produk atau proyek yang paling memenuhi kebutuhan pelanggan saat ini dan diberikan dengan biaya, pemborosan, dan waktu minimal, yang memungkinkan perusahaan untuk mencapai keuntungan bottom line lebih awal daripada melalui pendekatan tradisional.
 
-5. Scrum (pengembangan perangkat lunak)
+#Scrum (pengembangan perangkat lunak)
 Scrum adalah framework proses tangkas untuk mengelola pekerjaan pengetahuan yang kompleks, dengan penekanan awal pada pengembangan perangkat lunak, meskipun telah digunakan di bidang lain dan perlahan-lahan mulai dieksplorasi untuk pekerjaan kompleks lainnya, penelitian dan teknologi canggih. Scrum adalah proses tangkas kerangka kerja untuk mengelola pekerjaan pengetahuan yang kompleks, dengan penekanan awal pada pengembangan perangkat lunak, meskipun telah digunakan di bidang lain dan perlahan mulai dieksplorasi untuk pekerjaan kompleks lainnya, penelitian dan teknologi canggih.
 
 Roles.
@@ -97,7 +99,7 @@ b. Sprint backlog
 c. Increment
 d. Extensions
 
-6. Pemrograman ekstrim
+#Pemrograman ekstrim
 Extreme programming (XP) adalah metodologi pengembangan perangkat lunak yang dimaksudkan untuk meningkatkan kualitas perangkat lunak dan responsif terhadap perubahan kebutuhan pelanggan. Sebagai jenis pengembangan perangkat lunak yang gesit, ia menganjurkan "rilis" dalam siklus pengembangan singkat, yang dimaksudkan untuk meningkatkan produktivitas dan memperkenalkan pos-pos pemeriksaan di mana persyaratan pelanggan baru dapat diadopsi.
 
 Sejarah.
