@@ -38,7 +38,8 @@ Cek Perubahan yang terjadi (Edit, Hapus, Atau Create)
 
 ### dibagian ini file tidak bisa didownload karena **not found 404**. sehingga saya membuat manual didalam folder. 
 
-file yang dimaksud seharusnya berasal dari :\
+file yang dimaksud seharusnya berasal dari :
+
     wget https://www.acquia.com/sites/default/files/blog/all-around-the-mulberry-bush.txt
     wget https://www.acquia.com/sites/default/files/blog/jack-and-jill.txt
     wget https://www.acquia.com/sites/default/files/blog/old-mother-hubbard.txt
