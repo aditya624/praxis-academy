@@ -1,5 +1,4 @@
 # 1. Alice creates a new project and hosts it on GitHub.
-'''markdown
 pika@pika-PC:~$ mkdir rhymes
 pika@pika-PC:~$ cd rhymes
 pika@pika-PC:~/rhymes$ git init
@@ -31,7 +30,6 @@ pika@pika-PC:~/rhymes$ git add README.txt
 pika@pika-PC:~/rhymes$ git commit -m 'Added project overview to README.txt'
 [master c8b8c4c] Added project overview to README.txt
  1 file changed, 1 insertion(+)
-'''
 ### dibagian ini file tidak bisa didownload karena not found 404. sehingga saya membuat manual didalam folder.
 ## Alice downloads favorite rhymes.
 wget https://www.acquia.com/sites/default/files/blog/all-around-the-mulberry-bush.txt
