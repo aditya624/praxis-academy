@@ -74,3 +74,61 @@ sehingga repo tersebut akan terkirim ke profil kita seperini,
 
 ![https://lh3.googleusercontent.com/Pj1gwUm4vFR851riKI4cT005deZAFDku2ZW3TOwrQWjGRrlCwF-nzvvEpFNELTjlyLy1wqobX-ZjrGB-zbcnZoWuIqs58GL-e2Hn-kzW1ArmgJgMnwYwDEOtG881jIn2w5CXwhOpfw=w968-h310-no](https://lh3.googleusercontent.com/Pj1gwUm4vFR851riKI4cT005deZAFDku2ZW3TOwrQWjGRrlCwF-nzvvEpFNELTjlyLy1wqobX-ZjrGB-zbcnZoWuIqs58GL-e2Hn-kzW1ArmgJgMnwYwDEOtG881jIn2w5CXwhOpfw=w968-h310-no)
 
+Selanjutnya clone praktik-2-repo
+
+        pika@pika-PC:~$ git clone https://github.com/praktik-2/praktik-2-repo
+        Cloning into 'praktik-2-repo'...
+        remote: Enumerating objects: 3, done.
+        remote: Counting objects: 100% (3/3), done.
+        remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+        Unpacking objects: 100% (3/3), done.
+        pika@pika-PC:~$ cd praktik-2-repo
+
+dengan mudah membuat branch baru,
+
+        pika@pika-PC:~/praktik-2-repo$ echo "try" >> README.md
+        pika@pika-PC:~/praktik-2-repo$ git add .
+        pika@pika-PC:~/praktik-2-repo$ git commit -m "informastion added in readme"
+        [new-branch 0c89273] informastion added in readme
+        1 file changed, 1 insertion(+)
+        pika@pika-PC:~/praktik-2-repo$ git checkout -b new-branch
+        Switched to a new branch 'new-branch'
+
+Sehingga terdapat 2 branch seperti berikut 
+
+        pika@pika-PC:~/praktik-2-repo$ git branch
+        master
+        * new-branch
+
+remote yang ada,
+
+        pika@pika-PC:~/praktik-2-repo$ git remote -v
+        origin	https://github.com/praktik-2/praktik-2-repo (fetch)
+        origin	https://github.com/praktik-2/praktik-2-repo (push)
+
+jika sudah yakin dengan url, selanjutnya push ke branch
+
+        pika@pika-PC:~/praktik-2-repo$ git push origin new-branch
+        Username for 'https://github.com': aditya624
+        Password for 'https://aditya624@github.com': 
+        Counting objects: 6, done.
+        Delta compression using up to 8 threads.
+        Compressing objects: 100% (2/2), done.
+        Writing objects: 100% (6/6), 512 bytes | 512.00 KiB/s, done.
+        Total 6 (delta 0), reused 0 (delta 0)
+        remote: 
+        remote: Create a pull request for 'new-branch' on GitHub by visiting:
+        remote:      https://github.com/aditya624/praktik-2-repo/pull/new/new-branch
+        remote: 
+        To https://github.com/aditya624/praktik-2-repo
+        * [new branch]      new-branch -> new-branch
+        pika@pika-PC:~/praktik-2-repo$ 
+Selanjutnya pilih branch yang baru, kemudian pilih new pull 
+
+![https://lh3.googleusercontent.com/TwUQaL_rQuz5crLx5UT5nmdqS83XsHUKcKI9heNhx3yrfTVUPMpmHObb6Ccj6HtrYyXra-SxgAhQoDjfcWoO3vOGaJ6CyLCsTugZT25VxpoBdX011HfPcWcosBizUFqYyYJ7XxdNkw=w1003-h526-no](https://lh3.googleusercontent.com/TwUQaL_rQuz5crLx5UT5nmdqS83XsHUKcKI9heNhx3yrfTVUPMpmHObb6Ccj6HtrYyXra-SxgAhQoDjfcWoO3vOGaJ6CyLCsTugZT25VxpoBdX011HfPcWcosBizUFqYyYJ7XxdNkw=w1003-h526-no)
+
+Sehingga muncul pull request 
+
+![https://lh3.googleusercontent.com/YZHqtmJMs4w0xqL4fVkjTp7VmxZtZM1zAqazbFetCOY08gV5UZLo3hnfKDAyCi2Anzmicl7zgSP5G2_ade-ev1IXnHugg2NJUCJeHd6UFIyWMK9RSqz7jOllIZ0_end4i8wIhgjAZw=w988-h604-no](https://lh3.googleusercontent.com/YZHqtmJMs4w0xqL4fVkjTp7VmxZtZM1zAqazbFetCOY08gV5UZLo3hnfKDAyCi2Anzmicl7zgSP5G2_ade-ev1IXnHugg2NJUCJeHd6UFIyWMK9RSqz7jOllIZ0_end4i8wIhgjAZw=w988-h604-no)
+
+![https://lh3.googleusercontent.com/I9L9B61n5KsOuUYWzIHJoZi99Y1rVbrO8l8MKBb3UfQVN1VYxv3kypHUBpPDfa3s3lkzsDxzTud7ay00xFiOYHeglJ4SEOdL_L_OIpSIybM0PX9xc4itrfnpKrBletoZjX0Nkn1ffA=w1010-h588-no](https://lh3.googleusercontent.com/I9L9B61n5KsOuUYWzIHJoZi99Y1rVbrO8l8MKBb3UfQVN1VYxv3kypHUBpPDfa3s3lkzsDxzTud7ay00xFiOYHeglJ4SEOdL_L_OIpSIybM0PX9xc4itrfnpKrBletoZjX0Nkn1ffA=w1010-h588-no)
