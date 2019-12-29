@@ -1,5 +1,6 @@
 # 1. Alice creates a new project and hosts it on GitHub.
-'''pika@pika-PC:~$ mkdir rhymes
+'''markdown
+pika@pika-PC:~$ mkdir rhymes
 pika@pika-PC:~$ cd rhymes
 pika@pika-PC:~/rhymes$ git init
 Initialized empty Git repository in /home/pika/rhymes/.git/
