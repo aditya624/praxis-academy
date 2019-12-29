@@ -1,4 +1,5 @@
-pika@pika-PC:~$ mkdir rhymes
+# 1. Alice creates a new project and hosts it on GitHub.
+'''pika@pika-PC:~$ mkdir rhymes
 pika@pika-PC:~$ cd rhymes
 pika@pika-PC:~/rhymes$ git init
 Initialized empty Git repository in /home/pika/rhymes/.git/
@@ -29,9 +30,9 @@ pika@pika-PC:~/rhymes$ git add README.txt
 pika@pika-PC:~/rhymes$ git commit -m 'Added project overview to README.txt'
 [master c8b8c4c] Added project overview to README.txt
  1 file changed, 1 insertion(+)
-
+'''
 ### dibagian ini file tidak bisa didownload karena not found 404. sehingga saya membuat manual didalam folder.
-# Alice downloads favorite rhymes.
+## Alice downloads favorite rhymes.
 wget https://www.acquia.com/sites/default/files/blog/all-around-the-mulberry-bush.txt
 wget https://www.acquia.com/sites/default/files/blog/jack-and-jill.txt
 wget https://www.acquia.com/sites/default/files/blog/old-mother-hubbard.txt
@@ -138,7 +139,7 @@ To https://github.com/aditya624/rhymes.git
  * [new branch]      master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
 
-# Bob mengkopi projek alice
+# 2. Bob copies Alice's project, then submits some simple changes
 pika@pika-PC:~$ cd bob
 pika@pika-PC:~/bob$ git clone https://github.com/aditya624/rhymes.git
 Cloning into 'rhymes'...
@@ -151,7 +152,7 @@ pika@pika-PC:~/bob$ cd rhymes
 pika@pika-PC:~/bob/rhymes$ git checkout -b hickory-dickory
 Switched to a new branch 'hickory-dickory'
 
-# Add Hickory Dickory Dock to the repo. (Link tidak ada oleh karena itu saya input manual)
+## Add Hickory Dickory Dock to the repo. (Link tidak ada oleh karena itu saya input manual)
 wget https://www.acquia.com/sites/default/files/blog/hickory-dickory-dock.txt...
 
 pika@pika-PC:~/bob/rhymes$ git add hickory-dickory-dock.txt
@@ -246,7 +247,7 @@ Fast-forward
 pika@pika-PC:~/rhymes$ git branch -D hickory-dickory
 Deleted branch hickory-dickory (was fcda8cf).
 
-# Bob membuat banyak perubahan
+# 4. Bob makes lots of changes
 pika@pika-PC:~$ cd bob/rhymes
 pika@pika-PC:~/bob/rhymes$ git remote rename origin bob 
 pika@pika-PC:~/bob/rhymes$ git remote add alice https://github.com/aditya624/rhymes.git
