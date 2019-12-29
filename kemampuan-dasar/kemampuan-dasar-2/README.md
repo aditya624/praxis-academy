@@ -1,0 +1,1 @@
+# 1. Nama Repo yang berhubungan dengan praktik-1.md yaitu **rhymes**. Didalam repo tersebut, terdapat 3 **branch** yaitu master, hickory-dickory dan bobs-changes.
