@@ -34,3 +34,43 @@ Anda dapat menambahkan team dan kolaborasi dengan user lain yaitu klik "Add team
 
 Anda juga bisa klik setting di pojok repo untuk menambahkan lagi nantinya.
 
+![6](https://lh3.googleusercontent.com/rkt650Qcvdsk4nSp7eXx2tJ73wSOQDnY0NwAcbQgtEy--4dTevrYAv_Dec29BAxXU8kaiJXCMlTel4HB7ov3G6C6DT34ATg-S15R_JxVp10R-YODA5PvKzirFvhO-Jic1cSA-NY60w=w752-h428-no)
+
+## d. Push First Commit
+Buat folder dengan nama organisasi. Kemudian, isikan kode di terminal ubuntu,
+
+        pika@pika-PC:~$ cd organisasi
+        pika@pika-PC:~/organisasi$ git init
+        Initialized empty Git repository in /home/pika/organisasi/.git/
+        pika@pika-PC:~/organisasi$ echo "# praktik-2-repo" >> README.md
+        pika@pika-PC:~/organisasi$ git add .
+        pika@pika-PC:~/organisasi$ git commit -m 'first commit'
+        [master (root-commit) b1b15c7] first commit
+        1 file changed, 1 insertion(+)
+        create mode 100644 README.md
+        pika@pika-PC:~/organisasi$ git push origin master
+        Username for 'https://github.com': aditya624
+        Password for 'https://aditya624@github.com': 
+        Counting objects: 3, done.
+        Writing objects: 100% (3/3), 225 bytes | 225.00 KiB/s, done.
+        Total 3 (delta 0), reused 0 (delta 0)
+        To https://github.com/praktik-2/praktik-2-repo.git
+        * [new branch]      master -> master
+
+First commit berhasil dipush ke repo organisasi
+
+![7](https://lh3.googleusercontent.com/cip3MKTc0jCghRez4GeLO69ZBwlmb61O3OB7KuTBiQY9agCulZ8fsJFZakmHGQ3z5CWhKW9NK3okRfacsVsQacJ3qa0pNv8z7rh2XREv_igPqNe2hx8WKgsTTs5jY3Mgx8j1s0siDw=w1018-h556-no)
+
+# 3. Pull Requests
+Terdapat 2 model pull request yaitu **Fork & Pull Model** dan **Share Repository Model**
+
+Sekarang mari kita klik fork di pojok kanan atas 
+![8](https://lh3.googleusercontent.com/qwQ8oIuozMJBBgdRnERZdlPzTft8ituOwOP7l7Ol6lqSlfHrqkIHV2G74iiseNRIXIkfl5wHPFu_SjGHJ9qFnfmbAFNmVm1Uq5gAgWLS3slCZONo9_B0EEXSNaKqPHpCPahzZoinXg=w1041-h560-no)
+
+dan pilih user milik kita.
+![https://lh3.googleusercontent.com/EzkT3ltbGL5ttHMY6kJcejFtAsKTTFyOZmOXIe5ZhZgEboFWLSUgAfQR_-lRCHmUO0EPa9469NV4yp9KU4qWxH0CLutkiGmu0XeGwaZNCi_qRqVYBKQBut1UR0v6vkoe9pck7gqkKQ=w444-h194-no](https://lh3.googleusercontent.com/EzkT3ltbGL5ttHMY6kJcejFtAsKTTFyOZmOXIe5ZhZgEboFWLSUgAfQR_-lRCHmUO0EPa9469NV4yp9KU4qWxH0CLutkiGmu0XeGwaZNCi_qRqVYBKQBut1UR0v6vkoe9pck7gqkKQ=w444-h194-no)
+
+sehingga repo tersebut akan terkirim ke profil kita seperini,
+
+![https://lh3.googleusercontent.com/Pj1gwUm4vFR851riKI4cT005deZAFDku2ZW3TOwrQWjGRrlCwF-nzvvEpFNELTjlyLy1wqobX-ZjrGB-zbcnZoWuIqs58GL-e2Hn-kzW1ArmgJgMnwYwDEOtG881jIn2w5CXwhOpfw=w968-h310-no](https://lh3.googleusercontent.com/Pj1gwUm4vFR851riKI4cT005deZAFDku2ZW3TOwrQWjGRrlCwF-nzvvEpFNELTjlyLy1wqobX-ZjrGB-zbcnZoWuIqs58GL-e2Hn-kzW1ArmgJgMnwYwDEOtG881jIn2w5CXwhOpfw=w968-h310-no)
+
