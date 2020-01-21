@@ -153,7 +153,7 @@ Sedangkan
     Kelasku objek=new Kelasku();
 
 digunakan untuk declarasi pemanggilan objek dengan "Kelasku" adalah class di packagenya.
-# 2. Membuat paket lain menggunakan javac.
+# Membuat paket lain menggunakan javac.
 Misalkan kita mempunyai code sbb,
 
     package p1;
