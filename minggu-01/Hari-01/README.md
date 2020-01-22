@@ -22,6 +22,14 @@ download file dari web. kemudian ketikan
         javac hello.java
 ### b. file .jar
         jar cvfe HelloWorld.jar HelloWorld HelloWorld.class
+
+jika class lebih dari satu gunakan 
+
+
+```
+jar cvfe GroceryStore.jar GroceryStore *.class
+```
+
 ### c. Running jar file 
         java -jar HelloWorld.jar
 ## 7. Running dari class
@@ -62,6 +70,11 @@ buatlah file manifest.txt yang berisikan
 dengan Main-Class adalah Class terluar
 ### d. membuat jar
         pika@pika-PC:~/praxis-academy/minggu-01/Hari-01/Salary$ jar cfme Salary.jar Manifest.txt Employee Employee.class
+
+atau jika class lebih dari satu gunakan
+
+
+
 ### e. running jar
         pika@pika-PC:~/praxis-academy/minggu-01/Hari-01/Salary$ java -jar Salary.jar
 
