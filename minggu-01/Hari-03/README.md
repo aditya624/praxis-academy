@@ -97,3 +97,17 @@ Tag yang digunakan sebagai berikut :
 2. @param untuk memberitahukan parameter yang digunakan dalam method 
 3. @return untuk memberitahu nilai yang dikembalika.
 4. @version untuk mendeklarasikan version program.
+
+contoh penggunaan 
+```
+   /**
+     * 
+     * @param a
+     * @return angka 'num'
+     */
+    int Angka(int a){
+        num=a+2;
+        return num;
+    }
+```
+syntax diatas menyajikan parameter a dan return angka num.

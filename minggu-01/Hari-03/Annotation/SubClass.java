@@ -19,6 +19,9 @@ public @interface Annotationku{
     nilai = "123",nama="adit",umur=24,namaBaru = {"fandi","genji"}
 )
 
+/**
+ * Class untuk SubClass
+ */
 public class SubClass extends SuperClass{
 
     @Override
