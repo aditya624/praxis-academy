@@ -1,0 +1,20 @@
+<?xml version = "1.0"?>
+<cars>
+   <supercars company = "Ferrari">
+      <carname type = "formula one">Ferarri 101</carname>
+      <carname type = "sports car">Ferarri 201</carname>
+      <carname type = "sports car">Ferarri 301</carname>
+   </supercars>
+   
+   <supercars company = "Lamborgini">
+      <carname>Lamborgini 001</carname>
+      <carname>Lamborgini 002</carname>
+      <carname>Lamborgini 003</carname>
+   </supercars>
+   
+   <luxurycars company = "Benteley">
+      <carname>Benteley 1</carname>
+      <carname>Benteley 2</carname>
+      <carname>Benteley 3</carname>
+   </luxurycars>
+</cars>

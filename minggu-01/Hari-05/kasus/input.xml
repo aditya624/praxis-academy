@@ -1,0 +1,23 @@
+<?xml version = "1.0"?>
+<Praxis>
+<Team>
+    <Nama_Team>Bootcamp</Nama_Team>
+    <Anggota>
+        <id>01</id>
+        <nama>Adit</nama>
+        <Alamat>Tulungagung</Alamat>
+    </Anggota>
+    <Anggota>
+        <id>02</id>
+        <nama>Fandi</nama>
+        <Alamat>Surabaya</Alamat>
+    </Anggota>
+    <Anggota>
+        <id>03</id>
+        <nama>Genji</nama>
+        <Alamat>Tulungagung</Alamat>
+    </Anggota>
+    <Day>4</Day>
+    <Lokasi>Surabaya</Lokasi>
+</Team>
+</Praxis>

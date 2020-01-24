@@ -1,0 +1,28 @@
+{
+	"title": "Panduan Lengkap Memahami JSON",
+	"author": {
+			"id" : 1,
+			"username" : "agusph",
+			"nama":"Agus Prawoto Hadi"
+		  },
+	"date":{
+		  	"first_published" : "2018-01-10",
+		  	"revision" : ["2018-01-31", "2018-01-15"]
+		},
+	"allow_comment" : true,
+	"comment" : [
+		{
+			"id": 1,
+			"name" : "Fulan",
+			"date": "2018-02-01",
+			"comment" : "..."
+		},
+		{
+			"id": 2,
+			"name" : "Abdullah",
+			"date": "2018-02-05",
+			"comment" : "..."
+		}
+	],
+	"pingback" : null
+}
