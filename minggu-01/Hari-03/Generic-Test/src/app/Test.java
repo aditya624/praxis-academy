@@ -3,7 +3,7 @@ class Test1<T>
 { 
     // An object of type T is declared 
     T obj; 
-    Test1(T obj) {  
+    public Test1(T obj) {  
         this.obj = obj;  
     }  // constructor 
     public T getObject()  { 

@@ -162,6 +162,19 @@ public class JsonEncodeDemo {
 ```
 untuk mengimport download dulu package di https://github.com/fangyidong/json-simple
 
+# Struktur Data 
+Beberapa Struktur data yang wajib diketahui oleh programmer yaitu :
+1. Array
+2. Linked List
+3. Hash Table
+4. Stack
+5. Queue
+6. Set
+7. Vector
+8. Dictionary 
+9. BitSet
+10. Enumeration
+
 # Kasus Satu
 # XML
 ```

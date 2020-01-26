@@ -25,9 +25,11 @@ public class ReadJsonSimpleDemo {
       	  // looping array Anggota
 	  JSONArray anggota = (JSONArray) jsonObject.get("Anggota");
 	  Iterator iterasiAng = anggota.iterator();
-	  while (iterasiAng.hasNext()) {
-		System.out.println("\t - " + iterasiAng.next());
+	  
+	  for (Object obj1:anggota) {
+		System.out.println("\t - " + obj1);
 	  }
+
       String hari = (String) jsonObject.get("Day");
       System.out.println("Hari ke-"+hari);
      
