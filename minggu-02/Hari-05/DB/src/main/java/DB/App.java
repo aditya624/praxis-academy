@@ -5,7 +5,7 @@ public class App {
 
     public static void main( String[] args ) throws SQLException {
         //create connection for a server installed in localhost, with a user "root" with no password
-        try (Connection conn = DriverManager.getConnection("jdbc:mariadb://localhost/praxis", "root", "null")) {
+        try (Connection conn = DriverManager.getConnection("jdbc:mariadb://localhost/praxis", "root", null)) {
             // create a Statement
             try (Statement stmt = conn.createStatement()) {
                 //execute query

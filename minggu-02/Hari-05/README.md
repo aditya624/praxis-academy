@@ -35,3 +35,21 @@ untuk mengatur pass gunakan
 ```
 sudo mysql_secure_installation
 ```
+# Atur di gradle 
+atur ```gradle.build``` dengan depedensi sbb,
+```
+implementation 'org.mariadb.jdbc:mariadb-java-client:2.1.2'
+```
+# Catatan 
+Pada kasus saya terjadi masalah ketika vscode di koneksi kepada mariadb sehingga saya menghapus user ```root``` dan membuat ulang dengan cara,
+```
+drop user 'root'@'localhost';
+```
+kemudian membuat ulang tanpa password,
+```
+create user 'root'@'localhost' identified by '';
+```
+serta memberi semua hak akses yang ada,
+```
+grant all privileges on *.* to 'root'@'localhost' with grant option;
+```

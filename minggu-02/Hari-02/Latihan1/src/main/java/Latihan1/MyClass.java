@@ -7,6 +7,7 @@ public class MyClass{
     public double add(double c,double d){
         return c+d;
     }
+    
     public static void main(String[] args) {
         double a=10;
         double b=5;
