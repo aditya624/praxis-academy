@@ -31,3 +31,7 @@ pika@pika-PC:~$ mysql -V
 mysql  Ver 15.1 Distrib 10.1.43-MariaDB, for debian-linux-gnu (x86_64) using readline 5.2
 ```
 untuk cek versi mariadb yang terinstall.
+untuk mengatur pass gunakan 
+```
+sudo mysql_secure_installation
+```

@@ -14,6 +14,12 @@ public final class MathTest {
         
     }
     @SuppressWarnings("deprecation")
+    @Test(expected  = IllegalArgumentException.class)
+    public void divide_TenDividedByZero_ThrowsIllegalArgumentException() {
+        Math.divide(10, 0);
+    }
+    
+    @SuppressWarnings("deprecation")
     @Test
     public void TestAdd(){
         final double harapan=9;
