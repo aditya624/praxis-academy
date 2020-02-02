@@ -53,3 +53,5 @@ serta memberi semua hak akses yang ada,
 ```
 grant all privileges on *.* to 'root'@'localhost' with grant option;
 ```
+# Kasus 2 ada di folder Kasus2 untuk menampilkan isi database
+
