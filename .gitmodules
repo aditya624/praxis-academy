@@ -1,0 +1,3 @@
+[submodule "minggu-03/Hari-03/creating-your-first-micronaut-app"]
+	path = minggu-03/Hari-03/creating-your-first-micronaut-app
+	url = https://github.com/micronaut-guides/creating-your-first-micronaut-app.git
