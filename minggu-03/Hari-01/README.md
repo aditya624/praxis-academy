@@ -169,7 +169,7 @@ dan
 ```
 cockroach sql --insecure --host=localhost:26257
 ```
-
+untuk masuk ke db lagi
 ### Run basic Statement 
 ```
 CREATE DATABASE bank;
