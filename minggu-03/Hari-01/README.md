@@ -47,6 +47,7 @@ $ sudo service mongod stop
 $ sudo service mongod restart
 ```
 ### Untuk memulai 
+arahkan terminal ke /usr/bin/
 ```
 $ mongo
 ```
@@ -57,8 +58,35 @@ $ sudo apt-get purge mongodb-org*
 $ sudo rm -r /var/log/mongodb
 $ sudo rm -r /var/lib/mongodb
 ```
+# Rangkuman
+Mongodb sudah tidak menggunakan SQL perbedaan perintahnya sbb,
+```
+SQL
+SELECT * FROM inventory
+```
+dengan 
+```
+NoSQL
+db.inventory.find( {} )
+```
 
-# Instaling CockroachDB
+```
+SQL
+SELECT * FROM inventory WHERE status = "A" AND qty '<' 30
+```
+dengan
+```
+NoSQL
+db.inventory.find( { status: "A", qty: { $lt: 30 } } )
+```
+
+# 4. Gradle 
+Untuk penggunaan di gradle tambahkan depedensi sbb,
+```
+compile 'org.mongodb:mongodb-driver-reactivestreams:1.11.0'
+```
+
+# 5. Instaling CockroachDB
 ## Menggunakan Docker
 ```
 sudo docker pull cockroachdb/cockroach:v19.2.2
@@ -85,7 +113,7 @@ You will also need to disable and re-enable the docker snap if you added the gro
 $ sudo snap disable docker
 $ sudo snap enable docker
 ```
-
+# 6. Getting Started
 ### FirstNode
 ```
 docker run -d --name=roach1 --hostname=roach1 --net=roachnet -p 26257:26257 -p 8080:8080  -v "${PWD}/cockroach-data/roach1:/cockroach/cockroach-data"  cockroachdb/cockroach:v19.2.2 start --insecure --join=roach1,roach2,roach3
@@ -156,4 +184,11 @@ If you do not plan to restart the cluster, you may want to remove the nodes' dat
 ```
 rm -rf cockroach-data
 ```
+# Kasus 
+## 1. Buat database, table, atribut serta datanya seperti pada cockroachdb. 
+## 2. Buat gradle dengan ```gradle init```
+## 3. Pada ```gradle.build``` isi depedensi dengan
+```implementation 'org.postgresql:postgresql:42.2.0'```
+
+
 
