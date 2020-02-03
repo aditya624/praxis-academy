@@ -137,6 +137,39 @@ grep 'node starting' cockroach-data/roach1/logs/cockroach.log -A 11
 ```
 docker exec -it roach1 ./cockroach sql --insecure
 ```
+# Jika menggunakan install menggunaan binary geting started menjadi ,
+### FirstNode
+```
+cockroach start --insecure --store=node1 --listen-addr=localhost:26257 --http-addr=localhost:8080 --join=localhost:26257,localhost:26258,localhost:26259 --background
+```
+### Tambah 2 Node lagi 
+```
+cockroach start --insecure --store=node2 --listen-addr=localhost:26258 --http-addr=localhost:8081 --join=localhost:26257,localhost:26258,localhost:26259 --background
+
+cockroach start --insecure --store=node3 --listen-addr=localhost:26259 --http-addr=localhost:8082 --join=localhost:26257,localhost:26258,localhost:26259 --background
+```
+### inisialisasi Cluster
+```
+cockroach init --insecure --host=localhost:26257
+```
+### Startup Detail
+```
+grep 'node starting' node1/logs/cockroach.log -A 11
+```
+## Build SQL
+### Start
+```
+cockroach sql --insecure --host=localhost:26257
+```
+## Jika laptop di restart lakukan
+```
+cockroach start --insecure --store=node1 --listen-addr=localhost:26257 --http-addr=localhost:8080 --join=localhost:26257,localhost:26258,localhost:26259 --background
+```
+dan 
+```
+cockroach sql --insecure --host=localhost:26257
+```
+
 ### Run basic Statement 
 ```
 CREATE DATABASE bank;
@@ -182,7 +215,7 @@ docker rm roach1 roach2 roach3
 ```
 If you do not plan to restart the cluster, you may want to remove the nodes' data stores:
 ```
-rm -rf cockroach-data
+sudo rm -rf cockroach-data
 ```
 # Kasus 
 ## 1. Buat database, table, atribut serta datanya seperti pada cockroachdb. 
@@ -191,4 +224,4 @@ rm -rf cockroach-data
 ```implementation 'org.postgresql:postgresql:42.2.0'```
 
 
-
+# CATATAN COCKCROACH MENGGUNAKAN Name = Mydb

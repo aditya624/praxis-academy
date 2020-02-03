@@ -5,7 +5,6 @@ package Latihan7;
 
 import java.sql.*;
 import org.postgresql.Driver;
-
 public class App {
     public static void main(String[] args) throws SQLException {
         try (Connection conn = DriverManager.getConnection("jdbc:postgresql://localhost/NF", "root", null)) {
