@@ -127,4 +127,52 @@ Got it!pika@pika-PC:~$ curl -v http://localhost:8080/myapp/myresource
 < Content-Length: 7
 < 
 * Connection #0 to host localhost left intact
-Got it!```
+Got it!
+```
+
+# 3. GraphQL
+## Getting started (Crate Spring Boot app
+untuk membuat projek dapan menggunakan https://start.spring.io/
+Select:
+
+    Gradle Project
+    Java
+    Spring Boot 2.1.x
+
+For the project metadata we use:
+
+    Group: com.graphql-java.tutorial
+    Artifact: book-details
+
+As dependency, we just select Web. Kemudian klik generate
+
+jika menggunakan gradle silahkan tambahkan depedensinya sbb,
+```
+dependencies {
+    implementation 'com.graphql-java:graphql-java:11.0' // NEW
+    implementation 'com.graphql-java:graphql-java-spring-boot-starter-webmvc:1.0' // NEW
+    implementation 'com.google.guava:guava:26.0-jre' // NEW
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+```
+buat file baru ```schema.graphqls```di ```src/main/resources```
+dengan isi 
+```
+type Query {
+  bookById(id: ID): Book 
+}
+
+type Book {
+  id: ID
+  name: String
+  pageCount: Int
+  author: Author
+}
+
+type Author {
+  id: ID
+  firstName: String
+  lastName: String
+}
+```
