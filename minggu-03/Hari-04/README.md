@@ -52,9 +52,7 @@ masuk ke direktori /usr/local/lib/nodejs/node-v12/ buka terminal disana, dan ket
 ```
 npm install -g express-generator
 ```
-untuk menginstall express generator
-```
-kemudian pilih direktory yang inggin di buat projek
+untuk menginstall express generator, kemudian pilih direktory yang inggin di buat projek
 ```
 express myExpressApp --view pug
 ```
@@ -63,7 +61,7 @@ untuk membuat projek secara express contoh ```myExpressApp```, masuk ke direktor
 cd myExpressApp
 npm install
 ```
-start projek
+start projek menggunakan,
 ```
 npm start
 ```
