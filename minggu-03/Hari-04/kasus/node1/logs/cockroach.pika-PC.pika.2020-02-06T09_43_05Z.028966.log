@@ -1,0 +1,40 @@
+I200206 09:43:05.797805 1 util/log/clog.go:1196  [config] file created at: 2020/02/06 09:43:05
+I200206 09:43:05.797805 1 util/log/clog.go:1196  [config] running on machine: pika-PC
+I200206 09:43:05.797805 1 util/log/clog.go:1196  [config] binary: CockroachDB CCL v19.2.2 (x86_64-unknown-linux-gnu, built 2019/12/11 01:33:43, go1.12.12)
+I200206 09:43:05.797805 1 util/log/clog.go:1196  [config] arguments: [cockroach start --insecure --store=node1 --listen-addr=localhost:26257 --http-addr=localhost:8080 --join=localhost:26257,localhost:26258,localhost:26259]
+I200206 09:43:05.797805 1 util/log/clog.go:1196  line format: [IWEF]yymmdd hh:mm:ss.uuuuuu goid file:line msg utf8=✓
+I200206 09:43:05.797804 1 cli/start.go:1144  logging to directory /home/pika/praxis-academy/minggu-03/Hari-04/kasus/node1/logs
+W200206 09:43:05.798066 1 cli/start.go:1182  RUNNING IN INSECURE MODE!
+
+- Your cluster is open for any client that can access localhost.
+- Any user, even root, can log in without providing a password.
+- Any user, connecting as root, can read or write any data in your cluster.
+- There is no network encryption nor authentication, and thus no confidentiality.
+
+Check out how to secure your cluster: https://www.cockroachlabs.com/docs/v19.2/secure-a-cluster.html
+I200206 09:43:05.798294 1 server/status/recorder.go:599  available memory from cgroups (8.0 EiB) exceeds system memory 7.7 GiB, using system memory
+W200206 09:43:05.798392 1 cli/start.go:1052  Using the default setting for --cache (128 MiB).
+  A significantly larger value is usually needed for good performance.
+  If you have a dedicated server a reasonable setting is --cache=.25 (1.9 GiB).
+I200206 09:43:05.798519 1 server/status/recorder.go:599  available memory from cgroups (8.0 EiB) exceeds system memory 7.7 GiB, using system memory
+W200206 09:43:05.798543 1 cli/start.go:1065  Using the default setting for --max-sql-memory (128 MiB).
+  A significantly larger value is usually needed in production.
+  If you have a dedicated server a reasonable setting is --max-sql-memory=.25 (1.9 GiB).
+I200206 09:43:05.798636 1 server/status/recorder.go:599  available memory from cgroups (8.0 EiB) exceeds system memory 7.7 GiB, using system memory
+I200206 09:43:05.798665 1 cli/start.go:1196  CockroachDB CCL v19.2.2 (x86_64-unknown-linux-gnu, built 2019/12/11 01:33:43, go1.12.12)
+I200206 09:43:05.900643 1 server/status/recorder.go:599  available memory from cgroups (8.0 EiB) exceeds system memory 7.7 GiB, using system memory
+I200206 09:43:05.900686 1 server/config.go:394  system total memory: 7.7 GiB
+I200206 09:43:05.900927 1 server/config.go:396  server configuration:
+max offset             500000000
+cache size             128 MiB
+SQL memory pool size   128 MiB
+scan interval          10m0s
+scan min idle time     10ms
+scan max idle time     1s
+event log enabled      true
+I200206 09:43:05.900985 1 cli/start.go:1030  using local environment variables: COCKROACH_BACKGROUND_RESTART=1
+I200206 09:43:05.901016 1 cli/start.go:1037  process identity: uid 1000 euid 1000 gid 1000 egid 1000
+I200206 09:43:05.901132 1 cli/start.go:644  starting cockroach node
+I200206 09:43:05.904075 27 storage/engine/rocksdb.go:622  opening rocksdb instance at "/home/pika/praxis-academy/minggu-03/Hari-04/kasus/node1/cockroach-temp978520127"
+I200206 09:43:06.183674 27 server/server.go:928  [n?] monitoring forward clock jumps based on server.clock.forward_jump_check_enabled
+E200206 09:43:06.258238 1 cli/error.go:233  cockroach server exited with error: consider changing the port via --http-addr: listen tcp 127.0.0.1:8080: bind: address already in use

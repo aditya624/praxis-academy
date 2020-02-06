@@ -65,6 +65,23 @@ start projek menggunakan,
 ```
 npm start
 ```
+
+## Coba React.js
+``` 
+sudo nautilus
+```
+masuk ke direktori /usr/local/lib/nodejs/node-v12/ buka terminal disana, dan ketik
+```
+npm install -g create-react-app
+```
+untuk membuat projek ggunakan 
+```
+create-react-app app-ku
+```
+untuk start gunakan
+```
+npm start
+```
 kemudian cek link http://localhost:3000/ untuk mengetahui hasilnya.
 # 3. Kerjakan No. 10
 1. ```npm init``` untuk create file package.json
@@ -73,6 +90,8 @@ kemudian cek link http://localhost:3000/ untuk mengetahui hasilnya.
 ```
 sudo nautilus
 npm install -g node-static
+```
+
 ```
 
 
