@@ -43,4 +43,38 @@ pika@pika-PC:~/Downloads$ npx -v
 6.13.4
 
 ```
+# 2. Node di VsCode
+## Membuat ekspres App
+```
+sudo nautilus
+```
+masuk ke direktori /usr/local/lib/nodejs/node-v12/ buka terminal disana, dan ketik
+```
+npm install -g express-generator
+```
+untuk menginstall express generator
+```
+kemudian pilih direktory yang inggin di buat projek
+```
+express myExpressApp --view pug
+```
+untuk membuat projek secara express contoh ```myExpressApp```, masuk ke direktorinya kemudian install node js
+```
+cd myExpressApp
+npm install
+```
+start projek
+```
+npm start
+```
+kemudian cek link http://localhost:3000/ untuk mengetahui hasilnya.
+# 3. Kerjakan No. 10
+1. ```npm init``` untuk create file package.json
+2. ```npm install express``` untuk create node_module 
+3. Jika ingin install node_module secara global gunakan,
+```
+sudo nautilus
+npm install -g node-static
+```
+
 
