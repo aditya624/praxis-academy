@@ -1,4 +1,4 @@
-import merge from "lodash";
+import merge from "lodash/merge";
 
 const obj1 = { name: 'Bobo' };
 const obj2 = { shoeSize: 400 };
