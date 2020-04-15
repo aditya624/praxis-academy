@@ -1,3 +1,5 @@
+import numpy as np
+
 data=[80,90,100]
 for index,val in enumerate(data):
     print(f'index{index}-{val}')
