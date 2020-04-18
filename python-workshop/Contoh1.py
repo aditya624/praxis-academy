@@ -15,8 +15,8 @@ datas=[
     },
 ]
 
-for data1 in datas:
-    print(f"{data[data1]}")
+# for data1 in datas:
+#     print(f"{data[data1]}")
 
-    #for nil in data['nilai']:
-    #    print(nilai)
+#     #for nil in data['nilai']:
+#     #    print(nilai)
